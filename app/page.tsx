@@ -5,6 +5,18 @@ import WorkExperience from "@/components/work-experience"
 import FloatingMenu from "@/components/floating-menu"
 
 export default function Home() {
+  const daysOfWeek = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+
+  const currentDay = daysOfWeek[new Date().getDay()];
+
   return (
     <>
       <FloatingMenu />
@@ -13,7 +25,7 @@ export default function Home() {
         <div id="about" className="pt-16 md:pt-20 grid md:grid-cols-2 gap-8 md:gap-16">
           <div className="space-y-6 md:space-y-8 order-2 md:order-1">
             <div className="space-y-1">
-              <h1 className="text-3xl md:text-4xl font-bold">Son Trinh</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">Trinh The Son</h1>
               <h2 className="text-xl md:text-2xl">C + + Engineer</h2>
             </div>
 
@@ -426,8 +438,8 @@ export default function Home() {
             <div className="text-sm md:text-base text-gray-400">
               © {new Date().getFullYear()} Julius Gehrig. All rights reserved.
             </div>
-            <div className="flex gap-4">
-              <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
+            <div className="text-sm md:text-base text-gray-400">
+              {/* <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
                 Email
               </Link>
               <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
@@ -435,7 +447,8 @@ export default function Home() {
               </Link>
               <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
                 LinkedIn
-              </Link>
+              </Link> */}
+              Enjoy the rest of your <span className="font-bold text-white">{currentDay}</span>!
             </div>
           </div>
         </footer>
