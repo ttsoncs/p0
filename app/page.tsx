@@ -32,7 +32,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-3 md:gap-4">
               <div className="flex items-center gap-2">
                 <div className="w-5 h-5 md:w-6 md:h-6 bg-gradient-to-br from-purple-400 to-pink-400 rounded"></div>
-                <span className="text-sm md:text-base">Flexa</span>
+                <span className="text-sm md:text-base">VinAi</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-5 h-5 md:w-6 md:h-6 bg-[#7557FF] rounded flex items-center justify-center">
@@ -40,7 +40,7 @@ export default function Home() {
                     <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 3.5L18 9v6l-6 3-6-3V9l6-3.5z" />
                   </svg>
                 </div>
-                <span className="text-sm md:text-base">Pitch</span>
+                <span className="text-sm md:text-base">OPSWAT</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-5 h-5 md:w-6 md:h-6 grid grid-cols-2 grid-rows-2 gap-0.5">
@@ -49,7 +49,7 @@ export default function Home() {
                   <div className="bg-[#00A4EF]"></div>
                   <div className="bg-[#FFB900]"></div>
                 </div>
-                <span className="text-sm md:text-base">Microsoft</span>
+                <span className="text-sm md:text-base">Bosch</span>
               </div>
             </div>
 
@@ -436,7 +436,7 @@ export default function Home() {
         <footer className="mt-16 sm:mt-24 md:mt-32 pt-6 md:pt-8 border-t border-gray-800 pb-24">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div className="text-sm md:text-base text-gray-400">
-              © {new Date().getFullYear()} Julius Gehrig. All rights reserved.
+              © {new Date().getFullYear()} Trinh The Son. All rights reserved.
             </div>
             <div className="text-sm md:text-base text-gray-400">
               {/* <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
@@ -448,7 +448,7 @@ export default function Home() {
               <Link href="#" className="text-sm md:text-base text-gray-400 hover:text-white transition-colors">
                 LinkedIn
               </Link> */}
-              Enjoy the rest of your <span className="font-bold text-white">{currentDay}</span>!
+              Enjoy the rest of your <span className="font-bold text-white">{currentDay}!</span>
             </div>
           </div>
         </footer>
